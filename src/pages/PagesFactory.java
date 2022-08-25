@@ -29,6 +29,8 @@ public final class PagesFactory {
 
     public static ConfigurationPage getConfigurationPage() {return GetPage(ConfigurationPage.class);}
 
+    public static GlobalPrizingPage getGlobalPrizingPage() {return GetPage(GlobalPrizingPage.class);}
+
 
 
 }

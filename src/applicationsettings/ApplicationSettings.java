@@ -21,8 +21,8 @@ public class ApplicationSettings {
 
 	// Environment Details for Production
     private static final String productionUrl = "";
-    private static final String devUrl = "https://garrett.testingdxp.com/games/air-drop/admin/#/sign-in";
-    public static final String profileUrl = "https://garrett.testingdxp.com/games/air-drop/admin/#/sign-in";
+    private static final String devUrl = "https://garrett.developdxp.com/games/air-drop/admin/#/sign-in";
+    public static final String profileUrl = "https://garrett.developdxp.com/games/air-drop/admin/#/sign-in";
     private static final String productionTestDataFilePath = ".//src//testdata//production_test_data.xls";
     private static final String devTestDataFilePath = ".//src//testdata//dev_test_data.xls";
 

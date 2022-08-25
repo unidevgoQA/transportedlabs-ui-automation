@@ -14,15 +14,23 @@
         </methods>
       </class>
 
-      <class name="main.java.testcases.ConfigurationPageTests">
+<!--      <class name="main.java.testcases.ConfigurationPageTests">-->
+<!--        <methods>-->
+<!--&lt;!&ndash;          <include name="testNewConfigurationCreate" />&ndash;&gt;-->
+<!--&lt;!&ndash;          <include name="testGameStart" />&ndash;&gt;-->
+<!--&lt;!&ndash;          <include name="testDeleteConfiguration" />&ndash;&gt;-->
+<!--&lt;!&ndash;          <include name="testViewGameOnMobile" />&ndash;&gt;-->
+<!--        </methods>-->
+<!--      </class>-->
+
+
+      <class name="main.java.testcases.GlobalPrizingPageTest">
         <methods>
-          <include name="testNewConfigurationCreate" />
-          <include name="testGameStart" />
-<!--          <include name="testDeleteConfiguration" />-->
-          <include name="testViewGameOnMobile" />
+
+          <include name="testGlobalPrizingPageLoaded" />
+          <include name="testAddNewPrize" />
         </methods>
       </class>
-
 
 
 

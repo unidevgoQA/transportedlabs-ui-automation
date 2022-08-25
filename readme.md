@@ -1,6 +1,6 @@
 ## Overview
-BenchWorks is a consultant management system
-# Integration Testing of Benchworks
+TransportedLabs
+# Integration Testing of TransportedLabs
 
 + Java
 + Selenium Web Driver
@@ -10,7 +10,7 @@ Project will be build using *Maven* as software project management tool, with su
 
 
 
-## Execution of Benchworks tests
+## Execution of TransportedLabs tests
 `mvn clean test`
 
 ## Test HTML report location
