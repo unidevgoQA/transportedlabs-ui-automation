@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+  <test name="login">
+
+    <classes>
+
+
+
+      <class name="main.java.testcases.LoginPageTest">
+        <methods>
+          <include name="testLoginPageLoaded"/>
+          <include name="validateLoginFunctionality"/>
+        </methods>
+      </class>
+
+      <class name="main.java.testcases.ConfigurationPageTests">
+        <methods>
+          <include name="testNewConfigurationCreate" />
+          <include name="testGameStart" />
+<!--          <include name="testDeleteConfiguration" />-->
+          <include name="testViewGameOnMobile" />
+        </methods>
+      </class>
+
+
+
+
+
+
+    </classes>
+  </test>
+</suite>
